@@ -1,7 +1,7 @@
 RaspbiGoPro
 ===========
 
-Convert your raspberry pi in one Go Pro
+Convert your raspberry pi in one awesome GoPro camera
 
 ## Requeriments (hardware)
 - Raspberry Pi A/B/B+
