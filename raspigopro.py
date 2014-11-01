@@ -7,7 +7,6 @@ import os
 
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(17, GPIO.IN, pull_up_down = GPIO.PUD_DOWN)
-GPIO.setup(5, GPIO.OUT, initial=False)
 camera = picamera.PiCamera()
 camera.led = False
 is_recording = False
