@@ -17,6 +17,8 @@ La mayoria del software aqui listado se puede instalar tambien desde aptitude o 
 - Git. [Instructions](http://git-scm.com/)
 
 ##Instructions
+Connect one wire of switch to 5v and other to 17 like image
+
 Log in to your Raspberry Pi through ssh
 ``` shell
 ssh pi@raspberry-pi-IP
