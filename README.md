@@ -42,7 +42,7 @@ $ sudo chmod +x raspigopro.py
 Make sure the 'raspigopro' service will run every time you start your Raspberry Pi. Before, you must edit it "DIR=" to make sure indicates the correct path.
 ``` shell
 $ sudo cp raspigopro /etc/init.d/
-$ sudo chmod -x /etc/init.d/raspigopro
+$ sudo chmod +x /etc/init.d/raspigopro
 $ sudo update-rc.d raspigopro defaults
 ```
 
