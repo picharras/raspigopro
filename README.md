@@ -10,7 +10,7 @@ Convert your raspberry pi in one Go Pro
 - Coffee or beer
 
 ## Requeriments (software)
-La mayoria del software aqui listado se puede instalar tambien desde aptitude o apt.
+Most of the software listed here can be installed from aptitude or apt.
 - Last version Raspbian
 - GPIO software. [Instructions](http://raspberrypi.stackexchange.com/questions/8220/how-to-correctly-install-the-python-rpi-gpio-library)
 - Raspberry Pi Camera software. [Instructions](http://www.raspberrypi.org/learning/python-picamera-setup/)
