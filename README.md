@@ -1,4 +1,4 @@
-raspbygopro
+RaspbiGoPro
 ===========
 
 Convert your raspberry pi in one Go Pro
