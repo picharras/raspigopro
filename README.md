@@ -11,7 +11,7 @@ Convert your raspberry pi in one Go Pro
 
 ## Requeriments (software)
 - Last version Raspbian
-- Raspberry Pi Camera software. (Instrucctions)[http://www.raspberrypi.org/learning/python-picamera-setup/]
+- Raspberry Pi Camera software. [Instrucctions](http://www.raspberrypi.org/learning/python-picamera-setup/)
 
 ##Install service
 When raspberry pi run the service 'raspbigopro' run automatic
