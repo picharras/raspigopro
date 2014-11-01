@@ -17,7 +17,7 @@ La mayoria del software aqui listado se puede instalar tambien desde aptitude o 
 - Git. [Instructions](http://git-scm.com/)
 
 ##Instructions
-Connect one wire of switch to 5v and other to 17 like image
+Connect switch to 5v and GPIO 17 as shown in the diagram below:
 ![Circuit](https://dl.dropboxusercontent.com/u/978896/raspberrypi-switch.png)
 
 Log in to your Raspberry Pi through ssh
