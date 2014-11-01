@@ -51,4 +51,4 @@ Reboot your pi
 $ sudo reboot
 ```
 Now you can record video pushing the switch(LED turn on) and stop record video pushing again(LED turn off). Enjoy!
-<iframe width="560" height="315" src="//www.youtube.com/embed/V8kMGmvkRow" frameborder="0" allowfullscreen></iframe>
+[![How to works](http://img.youtube.com/vi/V8kMGmvkRow/0.jpg)](https://www.youtube.com/watch?v=V8kMGmvkRow)
