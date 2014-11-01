@@ -3,20 +3,20 @@ RaspbiGoPro
 
 Convert your raspberry pi in one awesome GoPro camera
 
-## Requeriments (hardware)
+## Requirements (hardware)
 - Raspberry Pi A/B/B+
 - Raspberry pi camera
 - Switch
 - Coffee or beer
 
-## Requeriments (software)
+## Requirements (software)
 Most of the software listed here can be installed from aptitude or apt.
 - Last version Raspbian
 - GPIO software. [Instructions](http://raspberrypi.stackexchange.com/questions/8220/how-to-correctly-install-the-python-rpi-gpio-library)
 - Raspberry Pi Camera software. [Instructions](http://www.raspberrypi.org/learning/python-picamera-setup/)
 - Git. [Instructions](http://git-scm.com/)
 
-##Instructions
+## Instructions
 Connect switch to 5v and GPIO 17 as shown in the diagram below:
 ![Circuit](https://dl.dropboxusercontent.com/u/978896/raspberrypi-switch.png)
 
