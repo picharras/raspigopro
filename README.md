@@ -11,7 +11,7 @@ Convert your raspberry pi in one Go Pro
 
 ##Install service
 When raspberry pi run the service 'raspbigopro' run automatic
-```
+```python
 sudo cp raspigopro /etc/init.d/
 chmod -x /etc/init.d/raspigopro
 sudo update-rc.d raspigopro defaults
