@@ -25,7 +25,7 @@ Log in to your Raspberry Pi through ssh
 $ ssh pi@raspberry-pi-IP
 ```
 
-Clone this repo
+Clone the 'raspigopro' repo and go to 'raspbigopro' folder
 ``` shell
 $ git clone https://github.com/picharras/raspigopro.git
 $ cd raspigopro
