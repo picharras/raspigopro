@@ -22,26 +22,31 @@ Connect switch to 5v and GPIO 17 as shown in the diagram below:
 
 Log in to your Raspberry Pi through ssh
 ``` shell
-ssh pi@raspberry-pi-IP
+$ ssh pi@raspberry-pi-IP
 ```
 
 Clone this repo
 ``` shell
-git clone https://github.com/picharras/raspigopro.git
-cd raspigopro
+$ git clone https://github.com/picharras/raspigopro.git
+$ cd raspigopro
 ```
 Create the 'videos' folder if not exist
 ``` shell
-mkdir videos
+$ mkdir videos
 ```
 
 Make executable 'raspigopro.py' file
 ``` shell
-sudo chmod +x raspigopro.py
+$ sudo chmod +x raspigopro.py
 ```
 Make sure the 'raspigopro' service will run every time you start your Raspberry Pi
 ``` shell
-sudo cp raspigopro /etc/init.d/
-sudo chmod -x /etc/init.d/raspigopro
-sudo update-rc.d raspigopro defaults
+$ sudo cp raspigopro /etc/init.d/
+$ sudo chmod -x /etc/init.d/raspigopro
+$ sudo update-rc.d raspigopro defaults
+```
+
+Reboot your pi
+``` shell
+$ sudo reboot
 ```
