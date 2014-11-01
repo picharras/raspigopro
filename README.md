@@ -39,7 +39,7 @@ Make executable 'raspigopro.py' file
 ``` shell
 $ sudo chmod +x raspigopro.py
 ```
-Make sure the 'raspigopro' service will run every time you start your Raspberry Pi. Before, you must edit it to make sure that "DIR=" indicates the correct path.
+Make sure the 'raspigopro' service will run every time you start your Raspberry Pi. Before, you must edit it "DIR=" to make sure indicates the correct path.
 ``` shell
 $ sudo cp raspigopro /etc/init.d/
 $ sudo chmod -x /etc/init.d/raspigopro
