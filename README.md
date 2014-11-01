@@ -39,6 +39,6 @@ sudo chmod +x raspigopro.py
 Make that raspberry pi run the service 'raspbigopro' run automatic
 ``` shell
 sudo cp raspigopro /etc/init.d/
-chmod -x /etc/init.d/raspigopro
+sudo chmod -x /etc/init.d/raspigopro
 sudo update-rc.d raspigopro defaults
 ```
