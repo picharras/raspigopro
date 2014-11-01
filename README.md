@@ -18,6 +18,7 @@ La mayoria del software aqui listado se puede instalar tambien desde aptitude o 
 
 ##Instructions
 Connect one wire of switch to 5v and other to 17 like image
+![Circuit](![GitHub Logo](/images/logo.png))
 
 Log in to your Raspberry Pi through ssh
 ``` shell
