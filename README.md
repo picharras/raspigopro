@@ -8,3 +8,9 @@ Convert your raspberry pi in one Go Pro
 - Raspberry pi camera
 - Switch
 - Coffee or beer
+
+##Install service
+When raspberry pi run the service 'raspbigopro' run automatic
+sudo cp raspigopro /etc/init.d/
+chmod -x /etc/init.d/raspigopro
+sudo update-rc.d raspigopro defaults
