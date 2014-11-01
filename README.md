@@ -17,7 +17,7 @@ La mayoria del software aqui listado se puede instalar tambien desde aptitude o 
 - Git. [Instructions](http://git-scm.com/)
 
 ##Instructions
-Conect your raspberry pi by ssh
+Log in to your Raspberry Pi through ssh
 ``` shell
 ssh pi@raspberry-pi-IP
 ```
@@ -27,7 +27,7 @@ Clone this repo
 git clone https://github.com/picharras/raspigopro.git
 cd raspigopro
 ```
-Create 'videos' folder if not exist
+Create the 'videos' folder if not exist
 ``` shell
 mkdir videos
 ```
@@ -36,7 +36,7 @@ Make executable 'raspigopro.py' file
 ``` shell
 sudo chmod +x raspigopro.py
 ```
-Make that raspberry pi run the service 'raspbigopro' run automatic
+Make sure the 'raspigopro' service will run every time you start your Raspberry Pi
 ``` shell
 sudo cp raspigopro /etc/init.d/
 sudo chmod -x /etc/init.d/raspigopro
