@@ -7,10 +7,19 @@ import os
 
 GPIO.setmode(GPIO.BCM)
 GPIO.setup(17, GPIO.IN, pull_up_down = GPIO.PUD_DOWN)
+#GPIO.setup(31, GPIO.IN, pull_up_down = GPIO.PUD_UP)
 camera = picamera.PiCamera()
 camera.led = False
 is_recording = False
 index_video = 1
+
+#def shutdown_pi(channel):
+#  if is_recording:
+#    camera.stop_recording()
+#  os.system("sudo shutdown -h now")
+#  print "APAGANDO..."
+
+#GPIO.add_event_detect(31, GPIO.FALLING, callback = shutdown_pi, bouncetime = 2000)
 
 def recording():
   global index_video
