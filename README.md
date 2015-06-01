@@ -21,7 +21,7 @@ Connect switch to 5v and GPIO 17 as shown in the diagram below:
 ![Circuit](https://dl.dropboxusercontent.com/u/978896/raspberrypi-switch.png)
 
 Log in to your Raspberry Pi through ssh
-``` shell
+```shell
 $ ssh pi@raspberry-pi-IP
 ```
 
